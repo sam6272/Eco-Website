@@ -464,8 +464,26 @@ nav .navbar .links li .sub-menu li{
 
 /* /// */
 
+/*map*/
+.google-map {
+border-radius: 5%;
+  position: relative;
+  margin: 20px 0px 30px 32px ;
+  width: 95%;
+  height: 400px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 
+}
 
+.google-map iframe {
+  height: 100%;
+  border-radius: 5px;
+
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
 
 /*footer*/
 .footer1{
