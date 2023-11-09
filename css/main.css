@@ -116,9 +116,9 @@ nav .navbar .links li:hover .js-sub-menu{
 .navbar .links li .sub-menu .more-arrow{
   line-height: 40px;
 }
-.navbar .links li .htmlCss-more-sub-menu{
-  /* line-height: 40px; */
-}
+/* .navbar .links li .htmlCss-more-sub-menu{
+  line-height: 40px;
+} */
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
   top: 0;
@@ -212,9 +212,9 @@ nav .navbar .links li:hover .js-sub-menu{
   }
 }
 @media (max-width:800px){
-  nav{
-    /* position: relative; */
-  }
+  /*nav{
+     position: relative; 
+  }*/
   .navbar .bx-menu{
     display: block;
   }
@@ -577,21 +577,20 @@ float: left;
   width:100%;
   height:180px;
   border-top:solid #265658;
-  
   background-color: #ECE0CD;
 
 }
 .foot{
-  width: 25%;
-  margin: 20px;
-  height: 140px;
+  width: 35%;
+  margin: 40px;
+  height: 102px;
   float: left;
 }
 
 .foot1{
   width: 45%;
   height: 100px;
-  margin: 60px 0px 0px 0px ;
+  margin: 80px 0px 0px 0px ;
   float: left;
 }
 .foot1 p{
@@ -599,34 +598,29 @@ float: left;
 }
 
 .foot2{
-  width: 25%;
-  height: 140px;
+  width: 7%;
+  height: 80px;
   float: left;
+  margin-top: 10px;
 }
 .foot img{
+  margin-left: 50px;
   width: 120px;
-  margin-left: 30px;
   height:100px;
 }
 .foot2 i{
   margin-top:60px;
-	color:#fff;
-	background:#AA7438;
+    color:#fff;
+    background:#AA7438;
     border: 2px solid #AA7438;
-	border-radius:50%;
-	padding:5px;
-	font-size:14px;
-	margin-right:3px;
-	display:flex !impotant;
+    border-radius:50%;
+    padding:5px;
+    font-size:14px;
+    margin-right:3px;
+    display:absolute;
 }
 .foot2 i:hover{
-	color:#AA7438;
-	background:#fff;
-	
+    color:#AA7438;
+    background:#fff;
+    
 }
-
-
-
-
-
-
