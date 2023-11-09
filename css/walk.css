@@ -316,12 +316,130 @@ nav .navbar .links li .sub-menu li{
   max-width: 100%;
 } 
 }
-/* Goog
+
+
+.container1 {
+   
+  width:100%;
+  background-color: #ccffff;
+  background-image: url("../Image/tramper-on-the-kepler1920v2.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 100%;
+  margin: 140px 0px 40px 0px;
+}
+
+.leftcontainer1{
+  text-align: justify;
+  width: 51%;
+  padding:20px 0px 10px 20px;
+  margin: 20px 0px 0px 30px;
+  height: 450px;
+  float: left;
+  background-color: white;
+}
+.leftcontainer1 h2{
+  
+  font-weight: 600;
+}
+.leftcontainer1 h3{
+  
+  font-weight: 350;
+}
+
+
+.rightcontainer1{
+  width: 42%;
+  margin: 20px 0px 0px 0px;
+  height: 450px;
+  float: left;
+  background-color: white;
+}
+
+
+
+.container2 {
+   
+  width:100%;
+  background-color: #ccffff;
+  background-image: url("../Image/tramper-on-the-kepler1920v2.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 100%;
+  margin: 10px 0px 40px 0px;
+}
+
+.leftcontainer2{
+  text-align: justify;
+  width: 51%;
+  padding:20px 0px 10px 20px;
+  margin: 20px 0px 0px 30px;
+  height: 450px;
+  float: left;
+  background-color: white;
+}
+.leftcontainer2 h2{
+  
+  font-weight: 600;
+}
+.leftcontainer2 h3{
+  
+  font-weight: 350;
+}
+
+
+.rightcontainer2{
+  width: 42%;
+  margin: 20px 0px 0px 0px;
+  height: 450px;
+  float: left;
+  background-color: white;
+}
+
+.container3 {
+   
+  width:100%;
+  background-color: #ccffff;
+  background-image: url("../Image/tramper-on-the-kepler1920v2.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 100%;
+  margin: 10px 0px 40px 0px;
+}
+
+.leftcontainer3{
+  text-align: justify;
+  width: 51%;
+  padding:20px 0px 10px 20px;
+  margin: 20px 0px 0px 30px;
+  height: 450px;
+  float: left;
+  background-color: white;
+}
+.leftcontainer3 h2{
+  
+  font-weight: 600;
+}
+.leftcontainer3 h3{
+  
+  font-weight: 350;
+}
+
+
+.rightcontainer3{
+  width: 42%;
+  margin: 20px 0px 0px 0px;
+  height: 450px;
+  float: left;
+  background-color: white;
+}
 /*footer*/
 .footer1{
     width:100%;
     height:180px;
     border-top:solid #265658;
+    position: absolute;`
+    bottom:0%;
     
     background-color: #ECE0CD;
   
