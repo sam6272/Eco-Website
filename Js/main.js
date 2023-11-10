@@ -64,7 +64,20 @@ jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  // Get the current URL
+  var currentUrl = window.location.href;
 
+  // Iterate through the navigation links
+  var navLinks = document.querySelectorAll(".nav-links a");
+  navLinks.forEach(function(link) {
+    // Check if the link's href matches the current URL
+    if (currentUrl.indexOf(link.href) !== -1) {
+      // Add the "active" class to the matching link
+      link.classList.add("active");
+    }
+  });
+});
 
 
 //section

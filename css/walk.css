@@ -68,6 +68,9 @@ nav .navbar .links li a:hover{
   transition: 0.5s;
   font-weight: 800;
 }
+.activelink{
+  background-color: blue;
+}
 
 
 .links li:hover .htmlcss-arrow,
@@ -357,6 +360,31 @@ nav .navbar .links li .sub-menu li{
 }
 
 
+.icon2 i{
+    
+  color:#fff;
+  background:#AA7438;
+  border: 2px solid #AA7438;
+  border-radius:50%;
+  padding:5px;
+  font-size:14px;
+  margin-right:3px;
+  display:absolute;
+}
+.icon2 i:hover{
+  color:#AA7438;
+  background:#fff;
+  
+}
+.icon2
+
+
+{
+  width: 100px;
+  position: relative;
+  left:75%;
+  
+}
 
 .container2 {
    
@@ -444,8 +472,8 @@ nav .navbar .links li .sub-menu li{
 
 }
 .foot{
-  width: 35%;
-  margin: 40px;
+  width: 24%;
+  margin: 30px;
   height: 102px;
   float: left;
 }
@@ -453,7 +481,7 @@ nav .navbar .links li .sub-menu li{
 .foot1{
   width: 45%;
   height: 100px;
-  margin: 80px 0px 0px 0px ;
+  margin: 72px 0px 0px 0px ;
   float: left;
 }
 .foot1 p{
@@ -461,9 +489,10 @@ nav .navbar .links li .sub-menu li{
 }
 
 .foot2{
-  width: 7%;
   height: 80px;
+  width: 15%;
   float: left;
+  margin-left: 30px;
   margin-top: 10px;
 }
 .foot img{

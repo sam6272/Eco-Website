@@ -1,5 +1,7 @@
 
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -10,6 +12,12 @@
 body{
   
   background-color: #ECE0CD;
+}
+
+.nav-links a.active {
+  color: #866550;
+  font-weight: 800;
+  /* Add any other styles for the active link */
 }
 
 nav{
@@ -490,50 +498,58 @@ nav .navbar .links li .sub-menu li{
   width:100%;
   height:180px;
   border-top:solid #265658;
-  background-color: #ECE0CD;
+  position: absolute;`
+  bottom:0%;
+background-color: #ECE0CD;
 
 }
+
+.activelink{
+  background-color: blue;
+}
 .foot{
-  width: 35%;
-  margin: 40px;
-  height: 102px;
-  float: left;
+width: 24%;
+margin: 30px;
+height: 102px;
+float: left;
 }
 
 .foot1{
-  width: 45%;
-  height: 100px;
-  margin: 80px 0px 0px 0px ;
-  float: left;
+width: 45%;
+height: 100px;
+margin: 72px 0px 0px 0px ;
+float: left;
 }
 .foot1 p{
-  margin-left: 60px;
+margin-left: 60px;
 }
 
 .foot2{
-  width: 7%;
-  height: 80px;
-  float: left;
-  margin-top: 10px;
+height: 80px;
+width: 15%;
+float: left;
+margin-left: 30px;
+margin-top: 10px;
 }
 .foot img{
-  margin-left: 50px;
-  width: 120px;
-  height:100px;
+margin-left: 50px;
+width: 120px;
+height:100px;
 }
 .foot2 i{
-  margin-top:60px;
-    color:#fff;
-    background:#AA7438;
-    border: 2px solid #AA7438;
-    border-radius:50%;
-    padding:5px;
-    font-size:14px;
-    margin-right:3px;
-    display:absolute;
+margin-top:60px;
+  color:#fff;
+  background:#AA7438;
+  border: 2px solid #AA7438;
+  border-radius:50%;
+  padding:5px;
+  font-size:14px;
+  margin-right:3px;
+  display:absolute;
 }
 .foot2 i:hover{
-    color:#AA7438;
-    background:#fff;
-    
+  color:#AA7438;
+  background:#fff;
+
+  
 }
