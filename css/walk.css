@@ -18,7 +18,7 @@ nav{
   left: 0;
   width: 100%;
   height: 100%;
-  height: 110px;
+  height: 105px;
   background: #ECE0CD;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 99;
@@ -62,12 +62,13 @@ nav .navbar .links li a{
   transition: 0.5s;
   font-size: 15px;
   font-weight: 600;
-}
-nav .navbar .links li a:hover{
-  color:#866550;
+}nav .navbar .links li a:hover,nav a.active{
+  
   transition: 0.5s;
   font-weight: 800;
-}
+  
+  border-bottom:2px solid black ;}
+
 .activelink{
   background-color: blue;
 }

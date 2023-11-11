@@ -16,31 +16,32 @@
 <script src="https://kit.fontawesome.com/a77b1b2fa9.js" crossorigin="anonymous"></script>
 
   </head>
-  <body>
+  <body id="about">
     
-    <nav >
-      <div class="navbar">
-        <i class='bx bx-menu'></i>
-        <div class="logo"><a href="#"><img src="../Image/logo.jpg"></a></div>
-        <div class="nav-links">
+    
+      <nav >
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo"><a href="#"><img src="../Image/logo.jpg"></a></div>
+          <div class="nav-links">
           <div class="sidebar-logo">
             <span class="logo-name">CodingLab</span>
             <i class='bx bx-x' ></i>
           </div>
           <ul class="links">
-            <li><a href="index.html" class="home">HOME</a></li>
+            <li><a href="index.html" data-active="home" class="home">HOME</a></li>
             
             <li>
-              <a href="walk.html"class="walk">WALK</a>
-              
+            <a href="walk.html" data-active="walk">WALK</a>
+            
             </li>
            
-            <li><a href="about.html" class="about">ABOUT US</a></li>
-            <li><a href="contact.html" class="contact">CONTACT US</a></li>
+            <li><a href="about.html"data-active="about" class="home">ABOUT US</a></li>
+            <li><a href="contact.html" data-active="contact">CONTACT US</a></li>
           </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     
   
 <div class="fixed-bg"></div>
@@ -197,6 +198,19 @@ if (pageName === "about.html"){
   document.querySelector(".about").classList.add("activeLink");
 }
 </script>
-  
+<script>
+  let links = document.querySelectorAll(".links a");
+let bodyId = document.querySelector("body").id;
+
+for(let link of links){
+if(link.dataset.active == bodyId){
+    link.classList.add("active");
+}
+}
+</script>
+
+
+
+
   </body>
 </html>
