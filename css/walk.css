@@ -320,12 +320,14 @@ nav .navbar .links li .sub-menu li{
 } 
 }
 
-
+#section{
+  
+}
 .container1 {
    
   width:100%;
   background-color: #ccffff;
-  background-image: url("../Image/tramper-on-the-kepler1920v2.jpg");
+  background-image: url("../Image/hamilton-lake.jpg");
   background-repeat: no-repeat;
   height: 500px;
   background-size: 100%;
@@ -390,7 +392,7 @@ nav .navbar .links li .sub-menu li{
    
   width:100%;
   background-color: #ccffff;
-  background-image: url("../Image/tramper-on-the-kepler1920v2.jpg");
+  background-image: url("../Image/taitu.jpg");
   background-repeat: no-repeat;
   height: 500px;
   background-size: 100%;
@@ -428,7 +430,7 @@ nav .navbar .links li .sub-menu li{
    
   width:100%;
   background-color: #ccffff;
-  background-image: url("../Image/tramper-on-the-kepler1920v2.jpg");
+  background-image: url("../Image/lake.jpg");
   background-repeat: no-repeat;
   height: 500px;
   background-size: 100%;

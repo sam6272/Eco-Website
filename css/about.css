@@ -329,7 +329,7 @@ nav .navbar .links li .sub-menu li{
 /*fixed image*/
 .fixed-bg {
   background-image: url("../Image/111111.jpg");
-  min-height: 1480px;
+  min-height: 1550px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -379,7 +379,7 @@ margin-left: 140px;
 }
 .team{
   width:93%;
-  height:960px;
+  height:1060px;
   position: absolute;
   top:71%;
   margin-top: 30px;
