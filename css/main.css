@@ -460,7 +460,7 @@ float: left;
   }
 
 .p1 h2{
-  margin:10px 0px 0px 25px;
+  margin:20px 0px 0px 25px;
   color: #31241E;
 }
 .p1 h3{
@@ -512,20 +512,22 @@ float: left;
   .pa1 h2{
     color: #31241E;
     margin-left: 50px;
+    margin-top: 20px;
   }
   .pa1 h3{
     margin-left: 50px;
-    color: #31241E
+    color: #31241E;
+    margin-top: 10px;
   
   }
-  .pa1 p{
+  .pa1 p{margin-top: 10px;
     margin-left: 50px;
     text-align: justify;
     color: #31241E;
   }
 
 .pa1 ul {
-  margin-left: 50px;
+  margin-left: 65px;
 }
 
 
@@ -560,7 +562,7 @@ float: left;
       }
     
     .pb1 h2{
-      margin:10px 0px 0px 25px;
+      margin:30px 0px 0px 25px;
       color: #31241E;
     }
     .pb1 h3{
